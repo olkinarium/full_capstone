@@ -15,4 +15,7 @@ Sorted list of suitable streets
 Data: 
 list of postal codes in Cracow + geoposition Foursquare
 http://krakow.naszemiasto.pl/artykul/krakow-kody-pocztowe-jakie-sa-kody-pocztowe-ulic-w-krakowie,3241785,artgal,t,id,tm.html
-Based on postal codes I'm planning to create a dataframe with streets and coordinates of the Cracow area. Based on these data I'll find a list of streets as a solutions
+Based on postal codes I'm planning to create a dataframe with streets and coordinates of the Cracow area. 
+Based on these data I'll find a list of streets as a solutions
+
+Feauture example: distances from Offices-Home, School-Home, Park-Home, Stadium-Home, etc.
