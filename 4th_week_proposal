@@ -1,14 +1,18 @@
-Who we are: 
-Estate agency
-Our client:
-Family with at least one child wants to find a perfect home in the city. Parents work in the office and kid goes to school. 
-Our task:
-Find the best neighborhood for the middle class.
+Who we are: Estate agency
+Our client: Family with at least one child wants to find a perfect home in the city. Parents work in the office and kid goes to school. 
+Our task: Find the best neighborhood for the middle class.
 I will consider next parameters as essential:
-•	Offices
-•	Schools
-•	Park
-•	Stadium
-Based on these parameters we will be able to find a best place for the family to live.
-Where we are: 
-Cracow area
+•	Offices (2 points on a map + 5 km radius)
+•	Schools (less than 1km from home)
+•	Park (less than 1km from home)
+•	Stadium (less than 1km from home)
+Based on these parameters we will be able to find a home for the family with a school, stadium and a park nearby. 
+Where we are: Cracow area
+
+Final product:
+Sorted list of suitable streets
+
+Data: 
+list of postal codes in Cracow + geoposition Foursquare
+http://krakow.naszemiasto.pl/artykul/krakow-kody-pocztowe-jakie-sa-kody-pocztowe-ulic-w-krakowie,3241785,artgal,t,id,tm.html
+Based on postal codes I'm planning to create a dataframe with streets and coordinates of the Cracow area. Based on these data I'll find a list of streets as a solutions
